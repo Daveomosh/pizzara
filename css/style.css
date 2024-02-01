@@ -1,12 +1,26 @@
-@import url(section/header.css) 
+@import url("sections/header.css");
+
 /*reset*/ 
 *{
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+padding:0;
+box-sizing: ;
 }
 
 /*Utility classes*/
 li{
   list-style-type:none;
+}
+li:hover{
+  background-color:#EEA539;
+  cursor: pointer;
+  color: white;
+}
+.nav-center  li a{
+  text-decoration: none;
+  color: black;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
 }
