@@ -1,0 +1,12 @@
+@import url(section/header.css) 
+/*reset*/ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*Utility classes*/
+li{
+  list-style-type:none;
+}
