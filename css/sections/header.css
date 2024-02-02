@@ -1,24 +1,26 @@
-.nav-container{
+
+.nav__container{
     display: flex;
     justify-content: space-between;
-    padding: 2em;
+    margin: 2rem;
 }
 
-.nav-left{
+.nav__left{
+
     display: flex;
     justify-content: left;
+
 }
-.nav-center{
+.nav__center{
     display: flex;
     justify-content: space-around;
     gap: 3em;
-    width: 25%;
+    width: 30%;
 }
-.nav-right{
+.nav__right{
     display: flex;
     justify-content: left;
     gap:3em;
     margin: 0 2rem;
-    width: 25%;
-
+    width: 30%;
 }

@@ -1,26 +1,30 @@
 @import url("sections/header.css");
-
-/*reset*/ 
-*{
+@import url(sections/main.css);
+/*reset*/
+* {
   margin: 0;
-padding:0;
-box-sizing: ;
+  padding: 0;
+  box-sizing: ;
 }
 
 /*Utility classes*/
-li{
-  list-style-type:none;
+li {
+  list-style-type: none;
 }
-li:hover{
-  background-color:#EEA539;
+li:hover {
+  background-color: #eea539;
   cursor: pointer;
   color: white;
 }
-.nav-center  li a{
+.nav__center li a {
   text-decoration: none;
   color: black;
 }
-.container{
+.container {
   width: 90%;
   margin: 0 auto;
+}
+h1{
+  font-size: 35px;
+  font-weight: 200px;
 }
