@@ -1,26 +1,49 @@
-
+/* Navigation styles */
+nav{
+    background-color: #F4F7F8;
+    padding: 2em 0;
+}
 .nav__container{
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    align-items: center;
+    
 }
 
-.nav__left{
-
-    display: flex;
-    justify-content: left;
-
-}
 .nav__center{
     display: flex;
-    justify-content: space-around;
     gap: 3em;
-    width: 30%;
 }
+.nav__center li:hover {
+    background-color: #eea539;
+    cursor: pointer;
+    color: white;
+  }
+.nav__center li a {
+    text-decoration: none;
+    color: black;
+  }
 .nav__right{
     display: flex;
-    justify-content: left;
     gap:3em;
-    margin: 0 2rem;
-    width: 30%;
+    
+}
+
+
+/* Hero Styles */
+.hero__cards__images{ 
+display: flex;
+;
+    background-color: black;
+    border-radius: 50%;
+    width:50px;
+}
+.hero__left__cards{
+    display: flex;
+    background-color: #F4F7F8;
+    width: 40%;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+
 }
