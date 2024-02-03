@@ -1,0 +1,14 @@
+.menu__images{
+    display: flex;
+    justify-content: space-between;
+}
+.menu__btn{
+    background-color: black;
+    color: #fff;
+     padding:2em;
+    margin: 2rem;
+    text-align: center;
+}
+.paragraph__orange{
+    color: #EEA539;
+}

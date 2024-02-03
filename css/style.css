@@ -27,3 +27,7 @@ h1{
 .text__orange{
   color: #EEA539;
 }
+h2{
+  font-size:50px;
+  font-weight: bold
+}
