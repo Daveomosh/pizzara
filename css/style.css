@@ -1,5 +1,9 @@
 @import url("sections/header.css");
 @import url("sections/menu.css");
+@import url("sections/about-us.css");
+@import url("sections/help.css");
+@import url("sections/footer.css");
+
 /*reset*/
 *{
   margin: 0;

@@ -1,0 +1,35 @@
+.footer{
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    line-height: 3;
+    font-size: 20px;
+    margin-top: 4rem;
+
+}
+.email__box{
+    padding: 30px 7em;
+    margin-top: 4rem;
+    border-radius: 10px;
+    border: none;
+    
+
+}
+.search__email{
+    background-color: #eea539;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left:auto;
+    color:white;
+}
+.quick__link ul :hover{
+    color: #eea539;
+    cursor: pointer;
+}
+
+.images{
+    display: flex;
+    gap: 1.5em;
+}

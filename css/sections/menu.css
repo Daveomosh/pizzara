@@ -1,14 +1,61 @@
 .menu__images{
     display: flex;
     justify-content: space-between;
+    width: 90%;
+    margin-left: 7rem;
 }
 .menu__btn{
     background-color: black;
     color: #fff;
-     padding:2em;
+     padding:25px 5em;
     margin: 2rem;
+    text-align: center;
+}
+   
+.menu__list{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+.menu__list__border{
+    border:solid darkgray 1px;
+    width:100%;
+    margin:2.5em 0;
+}
+.menu__list h3:hover{
+    color:#EEA539;
+    cursor:2.5em 0;
+}
+.menu h2{
     text-align: center;
 }
 .paragraph__orange{
     color: #EEA539;
+    text-align: center;
+    font-size: 25px;
+    font-weight:bold;
+    line-height: 1.5;
+    margin-top: 2rem;
+}
+.menu__images:nth-child(2){
+    margin:10px;
+
+}
+
+
+.menu__button{
+background-color:#EEA539 ;
+    padding: 25px 5em;
+    border: none;
+    border-radius:5px;
+    color: #fff;
+    margin-top: 2rem;
+}
+.btn__orange{
+    text-align: center;
+}
+.menu__pizza__image{
+    background-color: #f4f7fb ;
+    align-items: center;
+    text-align: center;
 }

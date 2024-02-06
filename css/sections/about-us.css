@@ -1,0 +1,42 @@
+.about__image {
+  display: flex;
+  background-color: black;
+  border-radius: 70%;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+.about-us__images {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  background-color: white;
+  padding: 2em 0;
+}
+
+.about-us__images p {
+  width: 60%;
+  font-weight: lighter;
+  color: darkgray;
+}
+.about-us__content h3 {
+  font-weight: bolder;
+  font-size: 25px;
+}
+.about-us__content h2 {
+  margin: 2rem;
+}
+.about-us__content {
+  display: flex;
+  justify-content: space-around;
+}
+.about-us__profile {
+  background-color: #f4f7f8;
+  height: 77%;
+}
+.about-us__content {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}

@@ -1,0 +1,19 @@
+.help__icon{
+    display: flex;
+    justify-content: space-around;
+    background-color:
+    margin-top: 4rem;
+;
+}
+.help h2{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.help__image{
+    background-color:  #f4f7fb;
+    padding: 2em;;
+    text-align: center;
+    margin-top: 2rem;
+}
