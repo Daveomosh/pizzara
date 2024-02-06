@@ -24,35 +24,47 @@ nav {
 }
 .nav__right {
   display: flex;
-  gap: 3em;
+  align-items: center;
+  gap: 1em;
+}
+
+.nav__mobile {
+  display: none;
 }
 
 /* hero style*/
 
-.hero__top__paragraph {
+.hero__left {
+  flex: 1;
+}
+
+.hero__top__paragraph h1 {
   font-weight: bolder;
+  font-size: 3rem;
 }
 .hero__icon {
-  border: solid lightgrey 1px;
-  width: 55%;
-  display: flex;
-  align-items: center;
-  padding: 0.6em 0;
 }
 .search {
   display: flex;
-  margin: 2rem;
-  padding: 30px 7em;
+  border: 2px solid lightgray;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
 }
-.hero__icon {
-  padding: 25px 5em;
-  border-radius: 10px;
+
+.search input {
+  padding: 1em 2em;
+  border: none;
+  outline: none;
+  flex: 1;
 }
+
 .button__icon {
   background-color: black;
   color: white;
-  padding: 20px 3em;
-  border-radius: 10px;
+  padding: 1em 2em;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .fa-solid {
   font-size: 1.5rem;
@@ -65,13 +77,14 @@ nav {
   background-color: #f4f7f8;
   flex-direction: column;
   align-items: center;
+  flex: 1;
   padding: 50px;
-  margin: 2rem;
-  
 }
 
 .hero__left__cards {
   display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-radius: 50px;
   box-sizing: border-box;
@@ -89,8 +102,7 @@ nav {
   padding: 20px;
   display: flex;
   align-items: center;
-  justify-content:center;
-
+  justify-content: center;
 }
 .p {
   padding-top: 2em;
@@ -101,18 +113,16 @@ nav {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .hero__right {
   display: flex;
-  justify-content: space-around;
-  width: 50%;
+  flex: 1;
   flex-direction: column;
 }
-.hero__right__images {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.hero__right__images img {
+  width: 100%;
 }
 .hero__left h1 {
   font-weight: bolder;
@@ -122,4 +132,32 @@ nav {
 
 .pizza__image {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.pizza__image img {
+  width: 25%;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 810px) {
+  .nav__center {
+    display: none;
+  }
+  .nav__mobile {
+    display: block;
+  }
+
+  .hero__right {
+    display: none;
+  }
+  .hero__left {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 1;
+  }
 }
