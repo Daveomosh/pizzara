@@ -12,8 +12,7 @@
   align-items: center;
   gap: 2em;
   background-color: white;
-  padding-left: 3em;
-  padding-bottom: 3em;
+padding: 5em;
 }
 .about__us__content h2 {
   padding-top: 1em;
@@ -38,12 +37,9 @@
   margin-top: 4rem;
 }
 
-.about-us__images p {
-  color: darkgrey;
-  font-weight: lighter;
+
 }
 .about__paragraph {
-  line-height: 3px;
-  font-weight: normal;
-  font-size: medium;
+  font-weight: 20px;
+  font-size: 300;
 }
