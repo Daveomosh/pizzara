@@ -38,7 +38,8 @@ padding: 5em;
   padding-bottom: 4em;
 }
 
-
+.paragraph__orange{
+  margin:2rem;
 }
 .about__paragraph {
   font-weight: 20px;
