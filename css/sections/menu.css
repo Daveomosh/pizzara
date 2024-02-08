@@ -3,6 +3,8 @@
     justify-content: space-between;
     width: 90%;
     margin-left: 7rem;
+    margin-top: 10rem;
+
 }
 .menu__btn{
     background-color: black;
@@ -55,7 +57,11 @@ background-color:#EEA539 ;
     text-align: center;
 }
 .menu__pizza__image{
-    background-color: #f4f7fb ;
+    background-color:#f4f7fb;
     align-items: center;
     text-align: center;
+}
+.chicken__pizza{
+margin-top: -7em;
+    
 }

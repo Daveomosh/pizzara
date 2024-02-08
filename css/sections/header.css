@@ -42,14 +42,14 @@ nav {
   font-weight: bolder;
   font-size: 3rem;
 }
-.hero__icon {
-}
+
 .search {
   display: flex;
   border: 2px solid lightgray;
   align-items: center;
   border-radius: 5px;
   width: 100%;
+  margin-top: 4rem;
 }
 
 .search input {
@@ -117,17 +117,21 @@ nav {
 }
 .hero__right {
   display: flex;
+  align-items: center;
   flex: 1;
   flex-direction: column;
 }
 
 .hero__right__images img {
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero__left h1 {
   font-weight: bolder;
   font-size: 70px;
   line-height: 1.5;
+  padding-top: 3em 2em;
 }
 
 .pizza__image {
