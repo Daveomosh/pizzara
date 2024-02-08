@@ -1,3 +1,4 @@
+
 @import url("sections/header.css");
 @import url("sections/menu.css");
 @import url("sections/about-us.css");
@@ -26,8 +27,9 @@ li {
   margin: 0 auto;
 }
 h1{
-  font-size: 35px;
-  font-weight: 200px;
+  font-size:900px;
+  font-weight:bolder;
+  
 }
 .text__orange{
   color: #EEA539;
