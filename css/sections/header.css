@@ -8,15 +8,18 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
+.nav__center ul li{
+  font-size: 8rem;
+  
+}
 .nav__center {
   display: flex;
   gap: 3em;
 }
 .nav__center li:hover {
-  background-color: #eea539;
+   
   cursor: pointer;
-  color: white;
+background-color:#eea539;
 }
 .nav__center li a {
   text-decoration: none;
@@ -25,6 +28,7 @@ nav {
 .nav__right {
   display: flex;
   align-items: center;
+
   gap: 1em;
 }
 
