@@ -20,5 +20,9 @@
     padding-right: 6em;
 }
 .help__image__icon{
-    margin-top: -5rem;
+    margin-top: -6rem;
+    background-color: #f4f7fb;
+    border-radius: 1000px;
+z-index: 1;
+height: 50px;
 }
