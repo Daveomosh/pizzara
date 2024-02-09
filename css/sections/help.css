@@ -1,9 +1,8 @@
 .help__icon{
     display: flex;
     justify-content: space-around;
-    background-color:
-    margin-top: 4rem;
-;
+margin: 2rem;
+padding: 4em;
 }
 .help h2{
     text-align: center;
@@ -13,16 +12,25 @@
 }
 .help__image{
     background-color:  #f4f7fb;
-    padding-top: 4em;
     text-align: center;
-    margin-top: 2rem;
-    padding-left: 6em;
-    padding-right: 6em;
+    padding: 3em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
 .help__image__icon{
-    margin-top: -6rem;
-    background-color: #f4f7fb;
-    border-radius: 1000px;
-z-index: 1;
-height: 50px;
+    margin-top: -5em;
+    background-color:#f4f7fb;
+    border-radius: 50%;
+height: 70px;
+width: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.icon__paragraph{
+    color:darkgray;
 }
